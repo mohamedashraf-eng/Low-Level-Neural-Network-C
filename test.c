@@ -137,7 +137,7 @@ void print_matrix(double (*m)[3], uint8_t a, uint8_t b)
   {
     for(uint8_t j = 0; j < b; j++)
      {
-        printf(" %.4f\t", m[i][j]);
+        printf(" %.4f\t ", m[i][j]);
      }
      printf("\n");
   }
